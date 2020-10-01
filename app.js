@@ -75,7 +75,7 @@
       listItem.className = '';
     }
   });
-
+  // Create object to change the current state
   ul.addEventListener('click', (e) => {
     if (e.target.tagName === 'BUTTON') {
       const button = e.target;
